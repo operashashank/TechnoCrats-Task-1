@@ -1,0 +1,37 @@
+*{
+    padding: 20px;
+    cursor: default;
+}
+html{
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 5px solid black;
+}
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+} 
+table tr td{
+    text-align: center;
+    border: 2px solid black;
+}
+.thead{
+    border: 2px solid black;
+    text-align: center;
+}
+#main_table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+#tasksubmit{
+    text-align: center;
+    margin-left: 47%;
+    margin-top: 0;
+}

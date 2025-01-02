@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill Guy's Planner Extension</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>🐶Chill Guy's Planner Extension</h1>
+    <div id="main_table">
+        <form action="">
+            <table>
+                <tr>
+                    <th class="thead">Task</th>
+                    <th class="thead">Deadline</th>
+                    <th class="thead">Status</th>
+                </tr>
+                <tr>
+                    <td class="ttask"><label for="todo1"><input type="text" name="todo1" id="todo1"
+                                placeholder="Task to do" autocomplete="off"></label></td>
+                    <td class="tdate"><label for="date1"><input type="date" name="date1" id="date1"></label></td>
+                    <td class="tstatus"><label for="status1"><input type="checkbox" name="status1" id="status1"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="ttask"><label for="todo2"><input type="text" name="todo2" id="todo2"
+                                placeholder="Task to do" autocomplete="off"></label></td>
+                    <td class="tdate"><label for="date2"><input type="date" name="date2" id="date2"></label></td>
+                    <td class="tstatus"><label for="status2"><input type="checkbox" name="status2" id="status2"></label>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Add Task" id="tasksubmit">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
